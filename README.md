@@ -25,4 +25,20 @@ Si la aplicación se compromete, un atacante podría borrar tablas o bases enter
 Por eso usamos un usuario limitado (jugador) que solo puede acceder a la BD arcade.
 
 
+MariaDB [arcade]> SELECT * FROM ranking;
++----+--------------------+----------------+--------+
+| id | jugador            | juego          | puntos |
++----+--------------------+----------------+--------+
+|  1 | PAC-ANA            | Pac-Man        |  48200 |
+|  2 | MARIO_84           | Donkey Kong    |  35100 |
+|  3 | LARA_C             | Tetris         |  61750 |
+|  4 | NEO                | Space Invaders |  27900 |
+|  5 | BIMBA_XL           | Pac-Man        |  52300 |
+|  6 | ZELDA              | Tetris         |  58400 |
+|  7 | R2D2               | Space Invaders |  31200 |
+|  8 | TRON               | Donkey Kong    |  29800 |
+|  9 | MONEDA-1: ARC-7X3K | secreto        |      0 |
++----+--------------------+----------------+--------+
+
 🪙 MONEDA 2: ARC-Q9M2
+
